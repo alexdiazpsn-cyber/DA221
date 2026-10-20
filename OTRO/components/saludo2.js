@@ -11,5 +11,3 @@ export const Saludo2 = () => {
         </View>
     );
 }
-
-const estilos= StyleSheet.create({ })

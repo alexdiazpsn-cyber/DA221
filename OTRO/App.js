@@ -9,11 +9,11 @@ export default function App() {
   return (
     <View style={styles.container}>
 
-     <Perfil nombre="Lulu" carrera="ITIID" materia="Movil" cuatri="4"/>
+     <Perfil style={styles.tarjetas1} nombre="Lulu" carrera="ITIID" materia="Movil" cuatri="4"/>
 
-     <Perfil nombre="Renata" carrera="ITIID" materia="Movil" cuatri="4"/>
+     <Perfil style={styles.tarjetas2} nombre="Renata" carrera="ITIID" materia="Movil" cuatri="4"/>
 
-     <Perfil nombre="Luisa" carrera="ITIID" materia="Movil" cuatri="4"/>
+     <Perfil style={styles.tarjetas3} nombre="Luisa" carrera="ITIID" materia="Movil" cuatri="4"/>
      
     </View>
   );
@@ -24,7 +24,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
+
+    flexDirection: 'column-reverse',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  tarjetas1:{
+    backgroundColor:'lightblue'},
+  tarjetas2:{backgroundColor: 'lightgreen'},
+  tarjetas3:{backgroundColor: 'lightyellow'}
 });
