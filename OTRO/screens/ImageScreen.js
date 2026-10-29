@@ -1,14 +1,13 @@
-/* 1. Zona Importaciones */
-
+/* 1. Zona Importaciones*/
 import { StyleSheet, View, Text} from 'react-native';
 
-/* 2. Zona Render o Main */
-export default function SafeScreen() {
+/* 2. Zona Render o Main*/
+export default function ImageScreen() {
   return (
     <View style={styles.container}>
 
-           <text>Practica 10</text>
-           <text> Diego o Saúl</text>
+      <Text> Practica 14 </Text>
+      <Text> Bersa </Text>
 
     </View>
   );
@@ -22,5 +21,6 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'space-evenly',
-  }
+  },
+
 });
